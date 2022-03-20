@@ -995,25 +995,10 @@ input[type="submit"] {
 }
 
 .overflow-auto::-webkit-scrollbar-thumb {
-    background-color: #5146ae;
+    background-color: #0495C1;
     border-radius: 8px;
 }
 
-.style-1.overflow-auto::-webkit-scrollbar-thumb {
-    background-color: #ff7c43;
-}
-
-.style-2.overflow-auto::-webkit-scrollbar-thumb {
-    background-color: #095ab8;
-}
-
-.style-3.overflow-auto::-webkit-scrollbar-thumb {
-    background-color: #f84d4c;
-}
-
-.style-4.overflow-auto::-webkit-scrollbar-thumb {
-    background-color: #ff9200;
-}
 
 .padding-tb {
     padding: 60px 0;
