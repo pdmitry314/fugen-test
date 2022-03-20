@@ -60,6 +60,7 @@
             $(".menu").toggleClass("open");
         });
 
+
         //mobile drodown menu display
         $('.mobile-menu-area .m-menu li a').on('click', function(e) {
             var element = $(this).parent('li');
