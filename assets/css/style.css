@@ -984,11 +984,25 @@ input[type="submit"] {
 }
 
 /*======= all scrollbar css =====*/
-
+.white-block {
+    position: absolute;
+    background-color: #fff;
+    width: 80%;
+    height: 30px;
+    margin-top: -12%;
+}
 
 .padding-tb {
     padding: 60px 0;
 }
+
+@media (max-width: 440px) {
+    .white-block {
+        margin-top: -14%;  
+        height: 40px;
+    }
+}
+
 
 @media (min-width: 576px) {
     .padding-tb {
