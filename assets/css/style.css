@@ -985,20 +985,6 @@ input[type="submit"] {
 
 /*======= all scrollbar css =====*/
 
-.overflow-auto::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    border-radius: 8px;
-}
-
-.overflow-auto::-webkit-scrollbar {
-    width: 10px;
-}
-
-.overflow-auto::-webkit-scrollbar-thumb {
-    background-color: #0495C1;
-    border-radius: 8px;
-}
-
 
 .padding-tb {
     padding: 60px 0;
@@ -2690,7 +2676,10 @@ header .bg-white.about-header .header-item .header-menu .primary-menu .main-menu
 
 
 .modal-window {
-    padding-top: 5%;
+}
+
+.modal-body {
+    height: 600px;
 }
 
 @media (max-width: 992px) {
